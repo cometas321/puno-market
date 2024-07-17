@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+    padding-bottom: 60px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

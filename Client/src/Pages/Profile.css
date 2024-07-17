@@ -1,0 +1,31 @@
+/* Estilos para el título */
+.title {
+    font-size: 24px;
+    color: #333; /* Cambia el color según tus preferencias */
+    font-weight: bold;
+    text-align: center; /* Ajusta la alineación según sea necesario */
+    margin-bottom: 20px; /* Agrega un margen inferior para separarlo de las secciones */
+    position: relative; /* Permite el posicionamiento relativo */
+  }
+  
+  /* Estilos para el separador del título */
+  .title::after {
+    content: ""; /* Crea un elemento pseudo-después del título */
+    position: absolute; /* Permite el posicionamiento absoluto */
+    bottom: -10px; /* Ajusta la distancia desde la parte inferior de la sección */
+    left: 50%; /* Centra horizontalmente */
+    width: 100px; /* Ancho del separador */
+    height: 2px; /* Altura del separador */
+    background-color: #333; /* Color del separador */
+  }
+  
+  /* Estilos para las secciones */
+  .section {
+    background-color: #f9f9f9; /* Cambia el color de fondo según tus preferencias */
+    border: 1px solid #ccc; /* Ajusta el estilo del borde según tus preferencias */
+    border-radius: 8px; /* Ajusta el radio de borde según tus preferencias */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra según tus preferencias */
+    padding: 20px; /* Ajusta el espaciado interno según tus preferencias */
+    margin-bottom: 20px; /* Agrega un margen inferior para separar las secciones */
+  }
+  
